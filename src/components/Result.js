@@ -8,7 +8,7 @@ export default function Result({choice1, choice2, result, mode, restart, isAutoP
 					{choice1[1]} <img src={`/src/icons/${choice1[0]}.png`} className='result-icon'/>
 				</div>
 				<div className='side-choice'>
-					<img src={`/src/icons/${choice2[0]}.png`} className='result-icon'/> {choice2[1]}
+					<img src={`/docs/icons/${choice2[0]}.png`} className='result-icon'/> {choice2[1]}
 				</div>
 				</div>
 				<span className="the-result-text" 
