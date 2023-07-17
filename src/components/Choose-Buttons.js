@@ -28,13 +28,13 @@ export default function ChooseButtons(props) {
 	}
 	return(
 	<div className='choose-buttons'>
-				<img src='/docs/icons/rock.png' className='choose-button' 
+				<img src='./icons/rock.png' className='choose-button' 
 				onClick={() => choose('rock')}/>
 
-				<img src='/docs/icons/paper.png' className='choose-button' 
+				<img src='./icons/paper.png' className='choose-button' 
 				onClick={() => choose('paper')}/>
 
-				<img src='/docs/icons/scissors.png' className='choose-button' 
+				<img src='./icons/scissors.png' className='choose-button' 
 				onClick={() => choose('scissors')}/>
 		</div>
 	)

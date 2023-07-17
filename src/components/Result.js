@@ -5,10 +5,10 @@ export default function Result({choice1, choice2, result, mode, restart, isAutoP
 		<div className="result-container">
 			<div className='choices'>
 				<div className='side-choice'>
-					{choice1[1]} <img src={`/docs/icons/${choice1[0]}.png`} className='result-icon'/>
+					{choice1[1]} <img src={`./icons/${choice1[0]}.png`} className='result-icon'/>
 				</div>
 				<div className='side-choice'>
-					<img src={`/docs/icons/${choice2[0]}.png`} className='result-icon'/> {choice2[1]}
+					<img src={`./icons/${choice2[0]}.png`} className='result-icon'/> {choice2[1]}
 				</div>
 				</div>
 				<span className="the-result-text" 
