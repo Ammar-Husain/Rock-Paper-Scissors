@@ -5,7 +5,7 @@ module.exports = {
   mode: 'production',
   entry: './src/index.js',
   output: {
-    publicPath: '/',
+    publicPath: '/docs, ',
     filename: 'bundle.js',
   },
   devServer: {
